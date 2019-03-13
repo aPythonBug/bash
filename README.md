@@ -1,6 +1,5 @@
 # bash
 
----
 title: Bash scripting
 category: CLI
 layout: 2017/sheet
@@ -14,7 +13,6 @@ keywords:
   - Loops
   - Conditional execution
   - Command substitution
----
 
 Getting started
 ---------------
