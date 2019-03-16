@@ -30,15 +30,15 @@ The following shortcuts allow you to control what appears on the screen.
 
 Use the following shortcuts to quickly move the cursor around the current line while typing a command.
 
-Ctrl+A or Home: Go to the beginning of the line.
-    Ctrl+E or End: Go to the end of the line.
-    Alt+B: Go left (back) one word.
-    Ctrl+B: Go left (back) one character.
+- `Ctrl+A` or Home: Go to the beginning of the line.
+- `Ctrl+E` or End: Go to the end of the line.
+- `Alt+B` Go left (back) one word.
+- `Ctrl+B`  Go left (back) one character.
     Alt+F: Go right (forward) one word.
     Ctrl+F: Go right (forward) one character.
     Ctrl+XX: Move between the beginning of the line and the current position of the cursor. This allows you to press Ctrl+XX to return to the start of the line, change something, and then press Ctrl+XX to go back to your original cursor position. To use this shortcut, hold the Ctrl key and tap the X key twice.
 
-Deleting Text
+# Deleting Text
 
 Use the following shortcuts to quickly delete characters:
 
@@ -46,7 +46,7 @@ Use the following shortcuts to quickly delete characters:
     Alt+D: Delete all characters after the cursor on the current line.
     Ctrl+H or Backspace: Delete the character before the cursor.
 
-Fixing Typos
+# Fixing Typos
 
 These shortcuts allow you to fix typos and undo your key presses.
 
@@ -54,7 +54,7 @@ These shortcuts allow you to fix typos and undo your key presses.
     Ctrl+T: Swap the last two characters before the cursor with each other. You can use this to quickly fix typos when you type two characters in the wrong order.
     Ctrl+_: Undo your last key press. You can repeat this to undo multiple times.
 
-Cutting and Pasting
+# Cutting and Pasting
 
 Bash includes some basic cut-and-paste features.
 
@@ -63,7 +63,7 @@ Bash includes some basic cut-and-paste features.
     Ctrl+U: Cut the part of the line before the cursor, adding it to the clipboard.
     Ctrl+Y: Paste the last thing you cut from the clipboard. The y here stands for “yank”.
 
-Capitalizing Characters
+# Capitalizing Characters
 
 The bash shell can quickly convert characters to upper or lower case:
 
@@ -71,9 +71,7 @@ The bash shell can quickly convert characters to upper or lower case:
     Alt+L: Uncapitalize every character from the cursor to the end of the current word, converting the characters to lower case.
     Alt+C: Capitalize the character under the cursor. Your cursor will move to the end of the current word.
 
-Tab Completion
-
-RELATED: Use Tab Completion to Type Commands Faster on Any Operating System
+# Tab Completion
 
 Tab completion is a very useful bash feature. While typing a file, directory, or command name, press Tab and bash will automatically complete what you’re typing, if possible. If not, bash will show you various possible matches and you can continue typing and pressing Tab to finish typing.
 
@@ -82,7 +80,7 @@ Tab completion is a very useful bash feature. While typing a file, directory, or
 For example, if you have a file named really_long_file_name in /home/chris/ and it’s the only file name starting with “r” in that directory, you can type /home/chris/r, press Tab, and bash will automatically fill in /home/chris/really_long_file_name for you. If you have multiple files or directories starting with “r”, bash will inform you of your possibilities. You can start typing one of them and press “Tab” to continue.
 
 
-Working With Your Command History
+# Working With Your Command History
 
 You can quickly scroll through your recent commands, which are stored in your user account’s bash history file:
 
@@ -95,11 +93,3 @@ Bash also has a special “recall” mode you can use to search for commands you
     Ctrl+R: Recall the last command matching the characters you provide. Press this shortcut and start typing to search your bash history for a command.
     Ctrl+O: Run a command you found with Ctrl+R.
     Ctrl+G: Leave history searching mode without running a command.
-
-
-
-
-
-
-
-
